@@ -32,13 +32,12 @@ After training the model for 20 epochs, final training and validation set losses
 ***Note:***
 * *The training stopped pre-maturely and may have improved with more epochs. But due to memory limitation in Google Colab, epochs were set to 20.*
 * *I did not perform testing on test set because of huge time and memory complexity. Instead I performed inference on random test images.*
-
 ### Future Work
 I have several ideas to improve this project:
 * Train other popular CNN networks like VGG and Inception --> Present a real-time comparison based study on the app when user gives an image.
 * Check predicted confidence --> Say something about not being sure about the prediction if it is under some threshold.
 * Add functionality of performing image processing in the app using OpenCV (checkout my [project](https://github.com/AparGarg99/Tutorials/tree/master/streamlit_frontend_tutorial/app7_opencv_tutorial)) --> Users can analyze in real-time how transforming an image affects the prediction.
-
+---
 # GUI
 ![](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/images/app1.PNG)
 
