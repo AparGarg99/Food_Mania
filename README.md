@@ -40,9 +40,12 @@ I have several ideas to improve this project:
 * Check predicted confidence --> Say something about not being sure about the prediction if it is under some threshold.
 * Add functionality of performing image processing in the app using OpenCV (checkout my [project](https://github.com/AparGarg99/Tutorials/tree/master/streamlit_frontend_tutorial/app7_opencv_tutorial)) --> Users can analyze in real-time how transforming an image affects the prediction.
 ---
+---
+
 # GUI
 ![](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/images/app1.PNG)
 
+---
 ---
 # Installation and Usage
 [Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference
