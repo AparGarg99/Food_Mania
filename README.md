@@ -4,7 +4,7 @@
   - [GUI](#gui)
   - [Installation and Usage](#installation-and-usage)
 
-
+---
 # Overview
 
 ### Abstract
@@ -14,7 +14,7 @@ This project uses a Deep CNN network to classify 101 classes of food based on im
 * The dataset used for this project was taken from [Kaggle](https://www.kaggle.com/kmader/food41?select=images).
 * There are 101 food classes in the dataset. Each food class has 1000 colored images (balanced dataset). Total images = 101000.
 * In any given image, the food was at the center of the image and occupied at least 50% of the image. This made the images great for training but not the best for use in real world inference.
-
+* 
 ### Methodology
 
 *I used [fastai v1](https://github.com/fastai/fastai) for transforming images and training DL network.*
@@ -32,6 +32,7 @@ After training the model for 20 epochs, final training and validation set losses
 ***Note:***
 * *The training stopped pre-maturely and may have improved with more epochs. But due to memory limitation in Google Colab, epochs were set to 20.*
 * *I did not perform testing on test set because of huge time and memory complexity. Instead I performed inference on random test images.*
+
 ### Future Work
 I have several ideas to improve this project:
 * Train other popular CNN networks like VGG and Inception --> Present a real-time comparison based study on the app when user gives an image.
@@ -41,5 +42,6 @@ I have several ideas to improve this project:
 # GUI
 ![](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/images/app1.PNG)
 
+---
 # Installation and Usage
 [Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference
