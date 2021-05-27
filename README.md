@@ -43,4 +43,4 @@ I have several ideas to improve this project:
 ![](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/images/app1.PNG)
 
 # Installation and Usage
-[Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage)
+[Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference
