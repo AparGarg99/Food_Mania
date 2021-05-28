@@ -1,6 +1,6 @@
 # Summary 📚
 
-  - [Overview](#overview)
+  - [Overview](#overview-👨‍💻)
   - [GUI](#gui)
   - [Installation and Usage](#installation-and-usage)
 
