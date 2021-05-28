@@ -1,13 +1,4 @@
-# Summary 📚
-
-  - [Overview](#overview%:man_technologist:)
-  - [GUI](#gui)
-  - [Installation and Usage](#installation-and-usage)
-
----
----
-# Overview :man_technologist:
-
+# Overview 📚
 ### Abstract
 This project uses a Deep CNN network to classify 101 classes of food based on images. The model architecture is a [ResNet34](https://en.wikipedia.org/wiki/Residual_neural_network) that was initially trained on the [ImageNet](https://en.wikipedia.org/wiki/ImageNet) dataset. Transfer learning was utilized to fine tune the ResNet34 model to learn how to classify food images. The trained model was then deployed in an interactive website using Streamlit to allow users to identify their own food images.
 
@@ -42,10 +33,10 @@ I have several ideas to improve this project:
 ---
 ---
 
-# GUI
+# GUI 👨‍💻
 ![trim](https://user-images.githubusercontent.com/54896849/119932196-6e3b8880-bfa0-11eb-8c26-1c0f32bd98ce.gif)
 
 ---
 ---
-# Installation and Usage
+# Installation and Usage 🔌
 [Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference
