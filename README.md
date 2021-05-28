@@ -39,4 +39,6 @@ I have several ideas to improve this project:
 ---
 ---
 # Installation and Usage 🔌
-[Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference
+[Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference.
+
+***Dont forget to give a ⭐ if you like this project !!***
