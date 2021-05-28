@@ -1,6 +1,6 @@
 # Summary 📚
 
-  - [Overview](#overview-:man_technologist:)
+  - [Overview](#overview%:man_technologist:)
   - [GUI](#gui)
   - [Installation and Usage](#installation-and-usage)
 
