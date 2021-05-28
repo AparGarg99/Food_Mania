@@ -1,4 +1,4 @@
-# Summary
+# Summary 📚
 
   - [Overview](#overview)
   - [GUI](#gui)
