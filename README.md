@@ -43,7 +43,7 @@ I have several ideas to improve this project:
 ---
 
 # GUI
-![](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/images/app1.PNG)
+![trim](https://user-images.githubusercontent.com/54896849/119932196-6e3b8880-bfa0-11eb-8c26-1c0f32bd98ce.gif)
 
 ---
 ---
