@@ -1,11 +1,11 @@
 # Overview 📚
 ### ✔️Abstract
-This project uses a Deep CNN network to classify 101 classes of food based on images. The model architecture is a [ResNet34](https://en.wikipedia.org/wiki/Residual_neural_network) that was initially trained on the [ImageNet](https://en.wikipedia.org/wiki/ImageNet) dataset. Transfer learning was utilized to fine-tune the ResNet34 model to learn how to classify food images. The trained model was then presented in an interactive website using Streamlit to allow users to identify their own food images.
+This project uses a Deep CNN network to classify 101 classes of food based on images. Transfer learning was used to fine-tune the [ResNet34](https://en.wikipedia.org/wiki/Residual_neural_network) model to learn how to classify food images. The trained model was then presented in an interactive website using Streamlit to allow users to identify their own food images.
 
 ### ✔️Dataset
 * The dataset used for this project was taken from [Kaggle](https://www.kaggle.com/kmader/food41?select=images).
 * There are 101 food classes in the dataset. Each food class has 1000 colored images (balanced dataset). Total images = 101000.
-* In any given image, the food was at the center of the image and occupied at least 50% of the image. This made the images great for training but not the best for use in real-world inference.
+* In any given image, the food is at the center of the image and occupies at least 50% of the image. This made the images great for training but not the best for use in real-world inference.
 
 ### ✔️Methodology
 
