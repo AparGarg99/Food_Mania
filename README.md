@@ -11,13 +11,13 @@ This project uses a Deep CNN network to classify 101 classes of food based on im
 
 1. I used [fastai v1](https://github.com/fastai/fastai) for transforming images and training the DL network.<br>
 
-&nbsp;1.1. **Split** - 101000 images were split into train, validation and test set. Train = 60600, Validation = 15150, Test = 25250.<br>
-&nbsp;1.2 **Augmentation** - Fastai has a method called [get_transforms()](https://fastai1.fast.ai/vision.transform.html#get_transforms) for augmenting images. It returns a tuple of two lists of transforms: one for 
+&nbsp; 1.1. **Split** - 101000 images were split into train, validation and test set. Train = 60600, Validation = 15150, Test = 25250.<br>
+&nbsp; 1.2 **Augmentation** - Fastai has a method called [get_transforms()](https://fastai1.fast.ai/vision.transform.html#get_transforms) for augmenting images. It returns a tuple of two lists of transforms: one for 
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the training set and one for the validation set. The first list of transforms applies default and random transformations with a probability of 
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75%: crop, horizontal flip, zoom up to 1.1, brightness and contrast, wrap (perspective). The second list of transforms is limited to resizing 
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the pictures since we don't want to modify the images in the validation set.<br>
-&nbsp;1.3. **Preprocessing** - First, the images were resized to 224x224 pixel squares and then they were normalized (using [normalize()](https://fastai1.fast.ai/vision.data.html#ImageDataBunch.normalize) method in fastai).<br>
-&nbsp;1.4. **Model Development** - I performed transfer learning on ResNet34 (Deep CNN network). The model was trained on a GPU in [Google Colab](https://colab.research.google.com).<br>
+&nbsp; 1.3. **Preprocessing** - First, the images were resized to 224x224 pixel squares and then they were normalized (using [normalize()](https://fastai1.fast.ai/vision.data.html#ImageDataBunch.normalize) method in fastai).<br>
+&nbsp; 1.4. **Model Development** - I performed transfer learning on ResNet34 (Deep CNN network). The model was trained on a GPU in [Google Colab](https://colab.research.google.com).<br>
 
 2. Then I created an app using [Streamlit](https://streamlit.io/) to showcase this project. The app allows users to interact with the trained model without any need for coding. Users can enter the image address/URL from the internet or upload their own image and see how the model would classify it. The app outputs the following 3 things: (i) Predicted food class. (ii) Link to the [Wikipedia](https://www.wikipedia.org/) page of the predicted food class. (iii) Link to the [Google Images](https://www.google.com/imghp?hl=EN) page of the predicted food class.
 
