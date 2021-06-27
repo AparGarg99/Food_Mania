@@ -45,4 +45,4 @@ I have several ideas to improve this project:
 <br>
 <br>
 
-***Dont forget to give a ⭐ if you like this project !!***
+***Don't forget to give a ⭐ if you like this project !!***
