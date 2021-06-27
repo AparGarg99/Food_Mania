@@ -16,7 +16,8 @@ This project uses a Deep CNN network to classify 101 classes of food based on im
 3. **Preprocessing** - First, the images were resized to 224x224 pixel squares and then they were normalized (using [normalize()](https://fastai1.fast.ai/vision.data.html#ImageDataBunch.normalize) method in fastai).
 4. **Model Development** - I performed transfer learning on ResNet34 (Deep CNN network). The model was trained on a GPU in [Google Colab](https://colab.research.google.com
 ).
-5. **App Development** - I created an app using [Streamlit](https://streamlit.io/) to showcase this project. The app allows users to interact with the trained model without any need for coding. Users can enter the image address/URL from the internet or upload their own image and see how the model would classify it. The app outputs the following 3 things: (i) Predicted food class. (ii) Link to the [Wikipedia](https://www.wikipedia.org/) page of the predicted food class. (iii) Link to the [Google Images](https://www.google.com/imghp?hl=EN) page of the predicted food class.
+
+*I created an app using [Streamlit](https://streamlit.io/) to showcase this project. The app allows users to interact with the trained model without any need for coding. Users can enter the image address/URL from the internet or upload their own image and see how the model would classify it. The app outputs the following 3 things: (i) Predicted food class. (ii) Link to the [Wikipedia](https://www.wikipedia.org/) page of the predicted food class. (iii) Link to the [Google Images](https://www.google.com/imghp?hl=EN) page of the predicted food class.*
 
 ### ✔️Results
 After training the model for 20 epochs, final training and validation set losses were 1.19 and 1.16 respectively.
